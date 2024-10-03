@@ -1,0 +1,40 @@
+{
+  "name": "sb",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "storybook dev -p 6006 --no-open",
+    "build": "storybook build",
+    "preview": "vite preview",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@incmixf/components": "workspace: *",
+    "@radix-ui/react-icons": "^1.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.2"
+  },
+  "devDependencies": {
+    "@incmix/ts-config": "workspace: *",
+    "@storybook/addon-essentials": "^8.0.10",
+    "@storybook/addon-interactions": "^8.0.10",
+    "@storybook/addon-links": "^8.0.10",
+    "@storybook/blocks": "^8.0.5",
+    "@storybook/cli": "^8.0.5",
+    "@storybook/react": "^8.0.10",
+    "@storybook/react-vite": "^8.0.10",
+    "@storybook/testing-library": "0.2.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prop-types": "^15.8.1",
+    "semver": "^7.6.3",
+    "storybook": "^8.0.11",
+    "tailwindcss": "^3.4.3",
+    "typescript": "5.4.3",
+    "vite": "^5.2.11"
+  }
+}
