@@ -1,13 +1,10 @@
 {
-  "extends": "@incmix/ts-config/react.json",
   "compilerOptions": {
     "strictNullChecks": true,
     "declaration": false,
     "declarationMap": false,
     "plugins": [],
     "paths": {
-      "@incmixf/components": ["../../frontend/core/components/src"],
-      "@incmixf/components/*": ["../../frontend/core/components/src/*"]
     }
   },
   "include": ["src", "**/*.ts", "**/*.tsx", "vite.config.ts"],
